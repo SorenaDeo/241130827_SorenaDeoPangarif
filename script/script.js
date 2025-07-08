@@ -89,8 +89,8 @@ orderForm.addEventListener('submit', (e) => {
         else if(kodePromo === 'DISKON40'){diskon = 0.4}
         else if(kodePromo === 'DISKON60'){diskon = 0.6}
         else if(kodePromo === 'DISKON70'){diskon = 0.7}
-        else if(kodePromo === 'DISKON70'){diskon = 0.8}
-        else if(kodePromo === 'DISKON70'){diskon = 0.9}
+        else if(kodePromo === 'DISKON80'){diskon = 0.8}
+        else if(kodePromo === 'DISKON90'){diskon = 0.9}
         else {
             totalHargaAwal.style.color = 'black';
             totalHargaAwal.style.textDecoration = 'none';
